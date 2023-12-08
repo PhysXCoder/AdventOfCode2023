@@ -7,13 +7,9 @@ console.log('08.12.2023');
 //const data = parseFile('Day08/input_sample2.txt');
 //console.log('Part 2: ' + evalPart2(data));
 
-//const data = parseFile('Day08/input.txt');
-//console.log('Part 1: ' + evalPart1(data));
-//console.log('Part 2: ' + evalPart2(data));
-
-const data = parseFile('Day08/input_test.txt');
+const data = parseFile('Day08/input.txt');
+console.log('Part 1: ' + evalPart1(data));
 console.log('Part 2: ' + evalPart2(data));
-console.log('Part 2 alternative: ' + evalPart2Alt(data));
 
 
 function parseFile(fileName) {
